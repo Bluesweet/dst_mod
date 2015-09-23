@@ -298,8 +298,8 @@ end
 
 local function ondeployitem(inst, data)
     if data.prefab == "pinecone" or data.prefab == "acorn" then
-        --inst.components.sanity:DoDelta(TUNING.SANITY_TINY)
-        inst.components.sanity:DoDelta(TUNING.SANITY_PER_CONE_WOODIE)
+        inst.components.sanity:DoDelta(TUNING.SANITY_TINY)
+        --inst.components.sanity:DoDelta(TUNING.SANITY_PER_CONE_WOODIE)
     end
 end
 
