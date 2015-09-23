@@ -479,6 +479,7 @@ local function onbecameghost(inst)
         inst:RemoveEventCallback("working", onworked)
         inst:RemoveEventCallback("beavernessdelta", onbeavernesschange)
         inst:RemoveEventCallback("newstate", onnewstate)
+        inst:RemoveEventCallback("deployitem", ondeployitem)
     end
 
     SetBeaverWorker(inst, false)
